@@ -6,7 +6,7 @@ metadata:
   name: nginx-pod
   labels:
     type: proxy
-    author: intelliqit
+    author: Riya
 spec:
   containers:
     - name: mynginx

@@ -1,5 +1,6 @@
-apiversion: v1
-kind: pod
+---
+apiVersion: v1
+kind: Pod
 metadata:
   name: postgres-pod
   labels:
@@ -17,4 +18,4 @@ spec:
         - name: POSTGRES_DB
           value: mydb
 
-
+...
